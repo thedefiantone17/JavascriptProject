@@ -17,6 +17,13 @@ Created a basic Calculator to perform operations like:
 
 Created a simple clock where hour, minutes and seconds hand rotate based on actual time from the date() function.
 
+### 3. Hangman Game
+
+Created a simple hangman game about guessing a random word by guessing letters one by one. If the player runs out of guesses, the game is over.
+
+- Set max limit for guesses
+- Display remaining number of Guesses
+
 
 ## Acknowledgements
 
