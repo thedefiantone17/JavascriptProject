@@ -1,0 +1,67 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* google font */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #c5caca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: black;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 500px;
+    height: 350px;
+    margin: 10px auto;
+    display: block;
+    font-size: 22px;
+    padding: 10px;
+    border:1px solid #dddddd;
+    border-radius: 5px;
+    resize: none;
+}
+
+button{
+    background-color: rgb(56, 91, 230);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+.result{
+    font-size: 18px;
+    margin-top: 20px;
+    color: #000000;
+    font-weight: bold;
+}

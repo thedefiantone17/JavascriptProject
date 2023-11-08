@@ -1,0 +1,62 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* google font */
+
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container{
+    max-width: 400px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    margin: 2px;
+}
+
+.options,.password{
+    margin-top: 10px;
+}
+
+.passwordbtn{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b1b1b1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btnGenerate{
+    margin: 20px 0 0px 0;
+    background-color: #4caf50;
+    color: white;   
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btnGenerate:hover{
+    background-color: #3e8e41;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+
+}

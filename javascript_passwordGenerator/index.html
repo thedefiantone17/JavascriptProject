@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Project | Password Generator</title>
+    
+    <!-- CSS start -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS end -->
+
+    <!-- google font start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+<!-- google font end -->
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="password">
+            <input type="text" name="" id="password" class="passwordbtn" readonly>
+            <button id="btnGenerate" class="btnGenerate">Generate Password</button>
+        </div>
+
+        <div class="options">
+            <label for="length">Password Length</label>
+            <input type="number" name="" id="length" value="8" min="8" max="64">
+
+            <label for="lowercase">Lowercase:</label>
+            <input type="checkbox" name="checkbox" id="lowercase" checked>
+
+            <label for="Uppercase">Uppercase:</label>
+            <input type="checkbox" name="checkbox" id="uppercase" >
+
+            <label for="lowercase">numbers:</label>
+            <input type="checkbox" name="checkbox" id="numbers" >
+
+            <label for="Symbols">Symbols:</label>
+            <input type="checkbox" name="checkbox" id="symbols" >
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+    <!-- Javascript -->
+</body>
+</html>
